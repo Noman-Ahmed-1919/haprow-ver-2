@@ -651,7 +651,6 @@ background-size: 200% 100%;
 
   /* background-color: black; */
   padding-top: 30px;
-  padding-bottom: 100px;
 }
 
 .aiboat{
@@ -806,6 +805,8 @@ display: block;
   color: gray;
   margin-left: 10px;
   font-size: 12px;
+  margin-right: 7px;
+
 }
 .tincidunt:hover{
   transform: scale(1.05);
@@ -1932,13 +1933,13 @@ margin-top: 40px;
 .aiboat {
   color: #FFE425;
   margin-top: 28px;
-  font-size: 20px;
-  text-align: center;
+  font-size: 18px;
+  text-align: justify;
 }
 .leo {
   color: white;
-  font-size: 19px;
-text-align: center;
+  font-size: 18px;
+  text-align: justify;
 }
 
 #discover{
@@ -2088,7 +2089,7 @@ text-align: center;
 }
 .innovating {
   color: white;
-  font-size: 37px;
+  font-size: 36px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -4763,7 +4764,7 @@ background-size: 200% 100%;
 .h4auto {
   color: white;
   margin-left: 10px;
-  font-size: 34px;
+  font-size: 28px;
 }
     
     
@@ -4793,7 +4794,7 @@ background-size: 200% 100%;
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
   .sli-back-para{
     margin-left: 26px;
@@ -4802,8 +4803,17 @@ background-size: 200% 100%;
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 769px) {
 
-@media screen and (min-width: 556px) and (max-width: 768px) {
+  .sli-back-para{
+    margin-left: 186px;
+  }
+
+
+}
+
+
+@media screen and (min-width: 556px) and (max-width: 767.5px) {
 
   .sli-back-para{
     margin-left: 97px;
@@ -5033,3 +5043,115 @@ display: none;  }
 #set-loc{
   padding-right: 24px;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+.changing h1{
+  color: white;
+  font-size: 61px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+overflow: hidden;
+} 
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .changing h1{
+    color: white;
+    font-size: 51px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+  overflow: hidden;
+  } 
+  }
+
+  @media screen and (min-width: 556px) and (max-width: 768px) {
+
+    .changing h1{
+      color: white;
+      font-size: 47px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      white-space: nowrap;
+    overflow: hidden;
+    text-align: justify;
+
+    } 
+    }
+
+    @media screen and (min-width: 100px) and (max-width: 556px) {
+
+    .h4-bblog {
+      color: white;
+      text-align: center;
+      font-size: 36px;
+  }
+  .pp-expp {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.h2-showcase {
+  color: white;
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 85px;
+  font-size: 56px;
+  
+}
+}
+
+    @media screen and (min-width: 366px) and (max-width: 556px) {
+
+      .changing h1{
+        color: white;
+        font-size: 38px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+      overflow: hidden;
+      text-align: justify;
+      } 
+      }
+
+      @media screen and (min-width: 283px) and (max-width: 366px) {
+
+        .changing h1{
+          color: white;
+          font-size: 28px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          white-space: nowrap;
+        overflow: hidden;
+        text-align: justify;
+        } 
+        }
+
+        @media screen and (min-width: 100px) and (max-width: 288px) {
+
+          .changing h1{
+            color: white;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            white-space: nowrap;
+          overflow: hidden;
+          text-align: justify;
+          } 
+          }
+
+
+
+          @media screen and (min-width: 100px) and (max-width: 768x) {
+
+          #sec3{
+
+           padding-bottom: 0px !important;
+          }
+
+        }
+          
