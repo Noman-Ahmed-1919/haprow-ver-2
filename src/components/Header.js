@@ -26,7 +26,7 @@ const Header = () =>{
 
 
   <a className="navbar-brand" href="#" id="stico" >
-    <img id='logo' style={{ marginTop:"30px" }} src={logo} width={135} height={35} className="d-inline-block align-top" alt="" />
+    <img id='logo' src={logo} width={135} height={35} className="d-inline-block align-top" alt="" />
     
 
   </a>
